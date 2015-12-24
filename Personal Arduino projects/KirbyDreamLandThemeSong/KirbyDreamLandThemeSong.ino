@@ -1,3 +1,14 @@
+/*
+  Author: Jeremy Roy
+
+  This program plays the Kirby Dreamland song in a loop to a piezo speaker connected 
+  to pin 2 of an Arduino micro-controller.  It's a great way of impressing friends.
+
+  WARNING: 
+	After running this program, the Kirby Dreamland theme song will be stuck
+	in your head for approximately 1.352 weeks.  Users beware.
+*/
+
 const float C0 = 16.35;
 const float CS0 = 17.32;
 const float D0 = 18.35;
@@ -157,11 +168,13 @@ int timeTransition6[] = {  e,  e,  h,  e,  e,  h,  h,   h,   e,   e,  h,  h,   h
 int transition7[] =     {C6, Bf5, GS5, GS5, GS5, GS5, Bf5, C6, C6, C6, D6, F6, G6, G6, G6, G6, Bf6, G6, G6, G6, F6, DS6};
 int timeTransition7[] = { e,   e,   h,   e,   e,   h,   h,  h,  e,  e,  h,  h,  h,  e,  e,  h,   h,  h,  e,  e,  h,   h};
 
-int finish[] =     {D6, F6, G6, D6, F6, G6, D6, F6, D6, F6, G6, C7, B6};
-int timeFinish[] = { h,  h,  h,  h,  h,  h,  h,  h,  h,  h,  h,  h,  h};
+int finish[] =     {D6, F6, G6, D6, F6, G6, D6, F6, D6, F6, G6, C7, B6, 0};
+int timeFinish[] = { h,  h,  h,  h,  h,  h,  h,  h,  h,  h,  h,  h,  h, h + q};
+
+int speaker = 11; //declare pin
 
 void setup(){
-  pinMode(2, OUTPUT);
+  pinMode(speaker, OUTPUT);
   Serial.begin(9600);
 }
 
@@ -182,7 +195,7 @@ void loop(){
   play(transition5, timeTransition5, 18);
   play(transition6, timeTransition6, 18);
   play(transition7, timeTransition7, 22);
-  play(finish, timeFinish, 13);
+  play(finish, timeFinish, 14);
   
   noTone(2);
 }
@@ -190,14 +203,14 @@ void loop(){
 void play(int notes[], int time[], int length){
     for (count = 0; count < length; count++){
     if (notes[count] == 0){
-      noTone(2);
+      noTone(speaker);
       delay(time[count]);
     }
     else{
-      tone(2, notes[count]);
+      tone(speaker, notes[count]);
       delay(time[count]);
     }
-    noTone(2);
+    noTone(speaker);
     delay(30);
   }
 }
