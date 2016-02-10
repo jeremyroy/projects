@@ -1,3 +1,20 @@
+/*
+*	This code describes the functioning of a tamper-proof safe with
+*	smart-password unlock.  Tamper-detection is achieved using a
+*	photoresistor and a vibration sensor.  The photodetector monitors
+*	whether or not the safe has been pried opened and the vibration
+*	sensor monitors rapid, unwanted movements.  Smart unlock is achieved
+*	using two soft-pot potentiometers.  
+*	
+*	Currently the user cannot reset the password manually.  This could 
+*	be an interesting add-on for future implementations of a smart-safe.
+*
+*
+*	Authors:
+*		Jeremy Roy
+*		Jeremie Jollivet
+*/
+
 #include <Servo.h>
 #include "safetyBox.h"
 

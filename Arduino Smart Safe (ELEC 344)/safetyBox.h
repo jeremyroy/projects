@@ -1,9 +1,16 @@
+/*
+*	Header file for the Arduino Smart Safe.  This code is quite messy.
+*	Authors:
+*		Jeremy Roy
+*		Jeremie Jollivet
+*/
+
 #include <Servo.h>
 
 Servo myServo;
 
 //Outputs
-//Blue LED always on.
+//Blue LED always on (power).
 int RLED_pin = 2;
 int YLED_pin = 3;
 int GLED_pin = 4;
@@ -12,30 +19,34 @@ int Button_pin = 6;
 int Vibration_pin = 7;
 int Speaker_pin = 8;
 
-
 //variables to check if safe is being moved around (vibration sensor activated)
 int vibration_time = 0;
 int vibration_count = 0;
 int vibration_flag = 0;
 int vibration_state;
 int lastVibration_state;
+
 //variables to check if safe is opened (light sensor activated)
 int light_flag = 0;
+
 //variable to check if safe has been tampered
 int tampered = 0;
+
 //variable to check if button has been pressed
 int flag = 0;
 
 //variables assist in reading the password
 int tRead1, tRead2;
+
 //variables to check combination
 int numPassed = 0; //stores number actions that passed the combination test
 int timer = 0; //timer to monitor if user takes too long to enter next code
 int rightCombo = 0; //user entered the right combo
 int failCount = 0;
 
+/*Kirby Dreamland alarm instantiations*/
 
-//song
+//note instantiation for alarm.
 const float C0 = 16.35;
 const float CS0 = 17.32;
 const float D0 = 18.35;
@@ -145,6 +156,7 @@ const float An8 = 7040;
 const float Bf8 = 7458.62;
 const float B8 = 7902.13;
 
+//length of notes
 const int q = 300;
 const int h = q/2;
 const int e = q/4;
