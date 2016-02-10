@@ -14,3 +14,5 @@ Here is a list of all projects in this repo:
 		- Kirby Dreamland Theme song (piezo speaker)
 		- Gerudo Valley (piezo speaker)
 		- Dual tone playground (playing with timer interrupts)
+
+Fun fact: I transposed all songs within my personal projects from the original sheet music.
