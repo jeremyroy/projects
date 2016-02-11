@@ -10,6 +10,7 @@ Here is a list of all projects in this repo:
 	School Projects:
 		- Arduino Smart Safe
 		- Techni - I was getting a linker error last time I tried running this on my computer.
+		- VHDL components
 	Personal Projects:
 		- Kirby Dreamland Theme song (piezo speaker)
 		- Gerudo Valley (piezo speaker)
