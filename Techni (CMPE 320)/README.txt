@@ -8,6 +8,6 @@ Authors of program:
 	Jae Ho Shin
 	
 Most of the documentation for this project exists on a private wiki
-within our professor's redmine server.  There is minimal commenting
+within our professor's Redmine server.  There is minimal commenting
 within the code, as we were following agile software development 
-methods.
+methods.  This code is made public with consent of all team members.

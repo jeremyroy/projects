@@ -11,5 +11,8 @@ Here is a list of all projects in this repo:
 		- Arduino Smart Safe
 		- Techni - I was getting a linker error last time I tried running this on my computer.
 	Personal Projects:
-		- Kirby Dreamland Theme song
-		
+		- Kirby Dreamland Theme song (piezo speaker)
+		- Gerudo Valley (piezo speaker)
+		- Dual tone playground (playing with timer interrupts)
+
+Fun fact: I transposed all songs within my personal projects from the original sheet music.
