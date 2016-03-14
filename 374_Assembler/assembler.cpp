@@ -1,3 +1,10 @@
+/*
+* The project in my ELEC 374 course was to make a mini SRC RISC processor.
+* For fun I decided to make an assembler for my processor.
+*
+*********IN PROGRESS*********
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <dirent.h>
