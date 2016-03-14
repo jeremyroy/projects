@@ -1,0 +1,36 @@
+﻿Build started 11/17/2015 1:16:45 PM.
+     1>Project "C:\Users\Jeremy\OneDrive\Queen's stuff\3rd year\CMPE 320\Assignment 4\jumble\jumble\jumble.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\jumble.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\jumble.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\..\..\..\Queen's stuff\3rd year\CMPE 320\Assignment 4\jumble\jumble\testJumble.cpp" jumble.cpp
+         jumble.cpp
+     1>c:\users\jeremy\onedrive\queen's stuff\3rd year\cmpe 320\assignment 4\jumble\jumble\jumble.cpp(1): warning C4627: '#include <string>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+         testJumble.cpp
+     1>c:\users\jeremy\onedrive\queen's stuff\3rd year\cmpe 320\assignment 4\jumble\jumble\testjumble.cpp(12): warning C4627: '#include <string>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\jeremy\onedrive\queen's stuff\3rd year\cmpe 320\assignment 4\jumble\jumble\testjumble.cpp(13): warning C4627: '#include <iostream>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\jeremy\onedrive\queen's stuff\3rd year\cmpe 320\assignment 4\jumble\jumble\testjumble.cpp(14): warning C4627: '#include <ctime>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\jeremy\onedrive\queen's stuff\3rd year\cmpe 320\assignment 4\jumble\jumble\testjumble.cpp(15): warning C4627: '#include "jumble.h"': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+     1>c:\users\jeremy\onedrive\queen's stuff\3rd year\cmpe 320\assignment 4\jumble\jumble\testjumble.cpp(159): error C2146: syntax error : missing ';' before identifier 'stringToLowerCase'
+     1>c:\users\jeremy\onedrive\queen's stuff\3rd year\cmpe 320\assignment 4\jumble\jumble\testjumble.cpp(159): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>c:\users\jeremy\onedrive\queen's stuff\3rd year\cmpe 320\assignment 4\jumble\jumble\testjumble.cpp(159): error C2146: syntax error : missing ')' before identifier 'str'
+     1>c:\users\jeremy\onedrive\queen's stuff\3rd year\cmpe 320\assignment 4\jumble\jumble\testjumble.cpp(159): error C2059: syntax error : ')'
+     1>c:\users\jeremy\onedrive\queen's stuff\3rd year\cmpe 320\assignment 4\jumble\jumble\testjumble.cpp(159): error C2143: syntax error : missing ';' before '{'
+     1>c:\users\jeremy\onedrive\queen's stuff\3rd year\cmpe 320\assignment 4\jumble\jumble\testjumble.cpp(159): error C2447: '{' : missing function header (old-style formal list?)
+     1>c:\users\jeremy\onedrive\queen's stuff\3rd year\cmpe 320\assignment 4\jumble\jumble\testjumble.cpp(170): error C2146: syntax error : missing ';' before identifier 'test'
+     1>c:\users\jeremy\onedrive\queen's stuff\3rd year\cmpe 320\assignment 4\jumble\jumble\testjumble.cpp(170): error C2065: 'test' : undeclared identifier
+     1>c:\users\jeremy\onedrive\queen's stuff\3rd year\cmpe 320\assignment 4\jumble\jumble\testjumble.cpp(171): error C2065: 'test' : undeclared identifier
+     1>c:\users\jeremy\onedrive\queen's stuff\3rd year\cmpe 320\assignment 4\jumble\jumble\testjumble.cpp(172): error C2065: 'cout' : undeclared identifier
+     1>c:\users\jeremy\onedrive\queen's stuff\3rd year\cmpe 320\assignment 4\jumble\jumble\testjumble.cpp(172): error C2065: 'test' : undeclared identifier
+     1>c:\users\jeremy\onedrive\queen's stuff\3rd year\cmpe 320\assignment 4\jumble\jumble\testjumble.cpp(172): error C2065: 'endl' : undeclared identifier
+         Generating Code...
+     1>Done Building Project "C:\Users\Jeremy\OneDrive\Queen's stuff\3rd year\CMPE 320\Assignment 4\jumble\jumble\jumble.vcxproj" (Rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.70
