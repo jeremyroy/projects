@@ -1,0 +1,76 @@
+header {
+    background: url("../images/header-top.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    box-shadow: 1px 1px 1px 1px #ccc;
+}
+#slider1_container img {
+    top: -41px !important;
+}
+<!--Margin Top-->
+.top1{
+	margin-top:10px;
+}
+.top2{
+	margin-top:20px;
+}
+.top3{
+	margin-top:30px;
+}
+.top4{
+	margin-top:40px;
+}
+.top5{
+	margin-top:50px;
+}
+.top6{
+	margin-top:60px;
+}
+.top7{
+	margin-top:70px;
+}
+.top8{
+	margin-top:80px;
+}
+.top9{
+	margin-top:90px;
+}
+.top10{
+	margin-top:100px;
+}
+<!--/Margon top-->
+
+<!--Margon Bottom-->
+.bottom1{
+	margin-bottom:10px;
+}
+.bottom2{
+	margin-bottom:20px;
+}
+.bottom3{
+	margin-bottom:30px;
+}
+.bottom4{
+	margin-bottom:40px;
+}
+.bottom5{
+	margin-bottom:50px;
+}
+.bottom6{
+	margin-bottom:60px;
+}
+.bottom7{
+	margin-bottom:70px;
+}
+.bottom8{
+	margin-bottom:80px;
+}
+.bottom9{
+	margin-bottom:90px;
+}
+.bottom10{
+	margin-bottom:100px;
+}
+.padding{
+	padding-bottom:15px;
+}
+<!--/Margon Bottom-->
+
